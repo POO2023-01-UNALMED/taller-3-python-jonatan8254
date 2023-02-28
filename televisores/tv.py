@@ -55,9 +55,6 @@ class TV:
     def getNumTV():
         return TV.numTV
     
-    def setNumTV(self, numTV):
-        TV.numTV=numTV
-    
     def canalUp(self):
         if self.estado and self.canal < 120:
             self.canal += 1
